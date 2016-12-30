@@ -120,7 +120,7 @@ export class PostsPage {
     if(newPost) {
       this.favoriteList.push(post);
       this.storage.set('favorite', JSON.stringify(this.favoriteList));
-      message = "This Post is saved in Favorite List";
+      message = "Artikel disimpan di daftar suka";
     } else {
       message = "Artikel ini sudah masuk daftar suka";
     }

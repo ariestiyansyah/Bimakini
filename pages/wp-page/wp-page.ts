@@ -10,4 +10,4 @@ export class WpPage {
     constructor(public params:NavParams) {
         this.page = this.params.get('page');
     }
-}   
+}

@@ -1,12 +1,57 @@
 <ion-header>
     <ion-navbar primary>
-        <ion-title>Pages</ion-title>
+        <ion-title>Tentang</ion-title>
     </ion-navbar>
 </ion-header>
 <ion-content>
-    <ion-list>
-        <a ion-item *ngFor="let page of pages" (click)="openPage(page)">
-            {{page.title.rendered}}
-        </a>
-    </ion-list>
+    <ion-card>
+
+    <center><img src="img/bimakini.png"/></center>
+
+    <ion-card-content>
+      <ion-card-title>
+        Tentang
+      </ion-card-title>
+      <p>
+        Seluruh konten dari Bimakini.com merupakan hak cipta dari PT. MEDIA ANZAM LESTARI (Bimakini)
+      </p>
+      <p>
+        Bimakini.com menerima artikel dan dapat dikirim ke e-mail redaksi yang disertai dengan scanner kartu identitas masih berlaku. Isi artikel opini dapat diedit dengan tidak mengurangi makna dan isinya bukan tanggungjawab redaksi.
+        Komentar atau tanggapan yang disampaikan oleh pembaca pada tidak menjadi tanggungjawab redaksi Bimakini.com
+      </p>
+    </ion-card-content>
+    <ion-item>
+          <ion-icon name='mail' item-left style="color: #d03e84"></ion-icon>
+          <a href="mailto:bimakini@yahoo.com">bimakini@yahoo.com</a>, <a href="mailto:info@bimakini.com">info@bimakini.com</a>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name='logo-twitter' item-left style="color: #55acee"></ion-icon>
+          <a href="http://twitter.com/bimakini">@Bimakini</a>
+        </ion-item>
+
+  </ion-card>
+  <ion-card>
+
+  <center><img src="img/rizky.jpg"/></center>
+
+  <ion-card-content>
+    <ion-card-title>
+      Dou Mbojo
+    </ion-card-title>
+    <p>
+      Dibuat oleh Rizky Ariestiyansyah
+    </p>
+  </ion-card-content>
+  <ion-item>
+        <ion-icon name='logo-facebook' item-left style="color: #d03e84"></ion-icon>
+        <a href="http://facebook.com/edXius">Rizky Ariestiyansyah</a>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name='logo-twitter' item-left style="color: #55acee"></ion-icon>
+        <a href="http://twitter.com/ariestiyansyah">@ariestiyansyah</a>
+      </ion-item>
+
+</ion-card>
 </ion-content>
